@@ -5,10 +5,7 @@ public class VerticalRug {
             for(int j = 0; j < emoji[i].length; j++){
                 if(j % 2 == 0){
                     emoji [i] [j] = "🌷";
-                }
-            }
-            for(int j = 0; j < emoji[i].length; j++){
-                if(j % 2 == 1){
+                } else {
                     emoji [i] [j] = "🌱";
                 }
             }

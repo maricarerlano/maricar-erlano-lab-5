@@ -6,11 +6,11 @@ public class PlaidRug {
                 for(int j = 0; j < emoji[i].length; j++){
                     if(j % 2 == 0){
                         emoji [i] [j] = "🌱";
-                    } if (j % 2 == 1){
+                    } else {
                         emoji [i] [j] = "🌷";
                     }
                 }
-            } if (i % 2 == 1){
+            } else {
                 for(int j = 0; j < emoji[i].length; j++){
                         emoji [i] [j] = "🌷";
                 }

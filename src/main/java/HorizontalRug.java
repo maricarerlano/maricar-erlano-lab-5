@@ -6,7 +6,7 @@ public class HorizontalRug {
                 for(int j = 0; j < emoji[i].length; j++){
                     emoji [i] [j] = "🌷";
                 }
-            } if (i % 2 == 1){
+            } else {
                 for(int j = 0; j < emoji[i].length; j++){
                     emoji [i] [j] = "🌱";
                 }
